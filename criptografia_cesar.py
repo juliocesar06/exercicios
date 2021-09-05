@@ -6,7 +6,7 @@ def getMode():
     
     while True:
         
-        print('Voçe quer criptografar ou descriptgrafar mensagem ?')
+        print('Voçe quer criptografar ou descriptografar a mensagem ?')
         mode = input().lower()
         if mode in 'criptografar c descriptografar d'.split():
             return mode
